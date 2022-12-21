@@ -1,0 +1,41 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+memoria                                                                           0x00E0      40
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+reva                                                                              R2.0      1bit
+revp                                                                              R2.1      1bit
+izqa                                                                              R2.2      1bit
+izqp                                                                              R2.3      1bit
+dera                                                                              R2.4      1bit
+derp                                                                              R2.5      1bit
+adea                                                                              R2.6      1bit
+adep                                                                              R2.7      1bit
+goa                                                                               R3.0      1bit
+gop                                                                               R3.1      1bit
+pa                                                                                R3.2      1bit
+pp                                                                                R3.3      1bit
+ca                                                                                R3.4      1bit
+cp                                                                                R3.5      1bit
+i                                                                                 R5           1
+j                                                                                 R4           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0004E     51
+checarAdelante                                                                    0x00081     29
+checarAtras                                                                       0x0009E     29
+checarIzq                                                                         0x000BB     29
+checarDer                                                                         0x000D8     29
+checarGo                                                                          0x000F5     47
+checarPause                                                                       0x00124     23
+checarClr                                                                         0x0013B     37
+checarEspacio                                                                     0x00160      8
